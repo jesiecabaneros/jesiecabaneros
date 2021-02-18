@@ -1,0 +1,25 @@
+.header-cont{
+  /* background-color:#dae1eb; */
+  padding: 0.5rem 0;
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+p {
+  font-family: 'Lato-Black' !important;
+}
+.header-menu{
+  font-family: 'Lato-Light';
+  color: #686868;
+}
+.fname-sign{
+  font-family: 'Lato-Black';
+  letter-spacing: -2px;
+
+}
+.lname-sign{
+  font-family: 'Lato-LightItalic';
+  letter-spacing: -2px;
+
+}

@@ -1,0 +1,23 @@
+
+::ng-deep .medias{
+  font-size: 2.5rem;
+  position: fixed;
+  bottom: 1.5rem;
+  left: 2rem;
+  display: grid;
+  grid-row-gap: 10px;
+}
+::ng-deep .medias path{
+  fill: #6b6b6b !important;
+}
+::ng-deep .medias path:hover{
+  fill: #4a52ad !important;
+}
+@media (max-width: 768px) {
+  .medias {
+    position: unset !important;
+    display: flex !important;
+    justify-content: center;
+    background: #dae1eb;
+  }
+}
